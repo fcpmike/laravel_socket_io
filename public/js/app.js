@@ -13951,6 +13951,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use((vue_toastify__WEBPACK_IMPORTED_MODULE_1___default()));
+vue__WEBPACK_IMPORTED_MODULE_0__["default"].component('posts-component', (__webpack_require__(/*! ./components/Posts/Posts.vue */ "./resources/js/components/Posts/Posts.vue")["default"]));
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({
   el: '#app'
 });
@@ -43048,6 +43049,16 @@ yeast.encode = encode;
 yeast.decode = decode;
 module.exports = yeast;
 
+
+/***/ }),
+
+/***/ "./resources/js/components/Posts/Posts.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Posts/Posts.vue ***!
+  \*************************************************/
+/***/ (() => {
+
+throw new Error("Module parse failed: Unexpected token (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n> <template>\n|     <div>\n|         Sou um componente do Vue");
 
 /***/ }),
 
